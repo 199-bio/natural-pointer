@@ -1,0 +1,4 @@
+anthropic==0.18.1
+pyautogui==0.9.54
+natural-pointer==0.1.0
+pillow==10.1.0

@@ -4,7 +4,7 @@ A lightweight Python library for AI-driven mouse movement simulation that replic
 
 ## Overview
 
-Natural Pointer uses machine learning to analyze and mimic your unique mouse movement patterns, bringing natural motion to automated tasks. The library can fall back to sophisticated bezier curves when no trained model is available.
+Natural Pointer uses machine learning to analyze and mimic your unique mouse movement patterns, bringing natural motion to automated tasks. We developed this library primarily for AI computer interaction, enabling Large Language Models (LLMs) to navigate and operate a computer with mouse movements that feel more human-like and less robotic. The library can also fall back to sophisticated bezier curves when no trained model is available, ensuring functionality even without personalization.
 
 ## Installation
 
@@ -54,6 +54,16 @@ python -m natural_pointer.recorder train
 from natural_pointer import NaturalPointer
 pointer = NaturalPointer(model_path="mouse_model.pth")
 ```
+
+### Example Visualizations
+
+Here's an example of the training data visualization and the resulting mouse movement path:
+
+**Training Data Visualization:**
+![Training Data Visualization](boris_training.png)
+
+**Simulated Mouse Movement:**
+![Simulated Mouse Movement](mouse_visualization.png)
 
 ## Automation Example
 
